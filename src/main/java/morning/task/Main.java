@@ -30,7 +30,6 @@ public class Main {
         Genre genre3 = new Genre();
         genre3.setName("philosophy");
         genreService.add(genre3);
-
         genreService.getAll().forEach(System.out::println);
 
         Author author1 = new Author();
